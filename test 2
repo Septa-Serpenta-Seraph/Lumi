@@ -1,0 +1,11 @@
+# Create a new file or modify an existing one
+echo "Hello, World!" > example.txt
+
+# Add the file to the staging area
+git add example.txt
+
+# Commit the changes
+git commit -m "add: example.txt, Hello, World!"
+
+# Push the changes to GitHub
+git push origin main
